@@ -4,10 +4,13 @@
         "target": "es6",
         "noImplicitAny": false,
         "sourceMap": false,
-        "outDir": "./dist",
         "jsx": "react",
         "jsxFactory": "React.createElement",
         "experimentalDecorators": true,
-        "allowJs": true
-    }
+        "outDir": "./lib",
+        "declaration": true
+    },
+    "files": [
+        "./src/index.ts"
+    ]
 }

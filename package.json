@@ -2,14 +2,14 @@
   "name": "wrappo",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config ./examples/webpack.config.js --context ./examples",
-    "dist": "webpack --config ./examples/webpack.config.js --context ./examples",
-    "lib": "babel src --watch -d lib"
+    "example:dev": "webpack-dev-server --config ./examples/webpack.config.js --context ./examples",
+    "example:dist": "webpack --config ./examples/webpack.config.js --context ./examples",
+    "lib": "tsc --project ./tsconfig.json"
   },
-  "author": "",
+  "author": "Nithin Peter <nithinpeter7@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^15.0.22",

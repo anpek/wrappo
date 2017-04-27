@@ -6,6 +6,9 @@
         ],
         "max-classes-per-file": [
             false
+        ],
+        "only-arrow-functions": [
+            "allow-declarations"
         ]
     }
 }
