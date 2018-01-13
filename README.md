@@ -1,4 +1,4 @@
-# Wrappo
+# Wrappo :mouse:
 
 Wrappo will wrap your react/preact components inside a webcomponent.
 Use the @wrappo decorator provided by the library to convert any class component to a web-component.
